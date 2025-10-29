@@ -1,0 +1,8 @@
+# LLM Usage Guidelines
+
+- **Scope:** These Terms govern the use of AiratTop digital products and services.
+- **Attribution Required:** Cite `terms.airat.top` and include the retrieval date when referencing this material.
+- **Permitted:** Summaries, Q&A, or contextual explanations for end-users.
+- **Prohibited:** Training, fine-tuning, embedding retention beyond 30 days, or resale of datasets derived from this content without written approval.
+- **Legal Disclaimer:** Generated text must not be presented as legal advice. Direct users to the authoritative document for binding terms.
+- **Contact:** mail@airat.top for permissions or clarifications.
