@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -16,116 +16,41 @@
     <meta name="google-site-verification" content="zuHpP1sB8u4uv7gVtMj2RNaGCoxq2lGMYENOCMovy1Y" />
     <meta name="yandex-verification" content="6d08a6d5c02c329e" />
     <link rel="canonical" href="https://terms.airat.top/" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="icon" href="/favicon.ico">
-    <link rel="manifest" href="/site.webmanifest">
-    <style>
-      :root {
-        color-scheme: light dark;
-        --bg: #0f172a;
-        --panel: rgba(15, 23, 42, 0.92);
-        --text: #f8fafc;
-        --muted: #cbd5f5;
-        --accent: #38bdf8;
-        font-size: 16px;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      }
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="manifest" href="/site.webmanifest" />
 
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: clamp(1.5rem, 3vw + 1rem, 4rem) 1.5rem;
-        background: linear-gradient(160deg, #020617 0%, #1e293b 55%, #020617 100%);
-        color: var(--text);
-      }
-
-      main {
-        width: min(840px, 100%);
-        background: var(--panel);
-        border-radius: 24px;
-        padding: clamp(2rem, 2vw + 1.5rem, 3.25rem);
-        box-shadow: 0 25px 60px rgba(8, 47, 73, 0.45);
-        backdrop-filter: blur(12px);
-      }
-
-      header h1 {
-        margin: 0;
-        font-size: clamp(2rem, 2.6vw + 1rem, 2.6rem);
-        letter-spacing: 0.03em;
-      }
-
-      header p {
-        margin-top: 0.75rem;
-        color: var(--muted);
-        line-height: 1.6;
-      }
-
-      section {
-        margin-top: 2rem;
-      }
-
-      section:first-of-type {
-        margin-top: 2.5rem;
-      }
-
-      h2 {
-        margin: 0 0 0.85rem;
-        font-size: clamp(1.15rem, 1.3vw + 1rem, 1.5rem);
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: var(--accent);
-      }
-
-      p,
-      li {
-        margin: 0 0 1rem;
-        line-height: 1.7;
-      }
-
-      ul {
-        padding-left: 1.1rem;
-        margin: 0 0 1.5rem;
-      }
-
-      a {
-        color: var(--accent);
-        text-decoration: none;
-        font-weight: 600;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-
-      footer {
-        margin-top: 2.5rem;
-        font-size: 0.95rem;
-        color: rgba(203, 213, 225, 0.75);
-      }
-
-      @media (prefers-reduced-motion: reduce) {
-        * {
-          transition-duration: 0.01ms !important;
-          scroll-behavior: auto !important;
-          animation-duration: 0.01ms !important;
-        }
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <header>
-        <h1>Terms of Use</h1>
-        <p>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <main class="shell">
+      <header class="brand">
+        <div class="brand-copy">
+          <p class="brand-eyebrow">terms.airat.top</p>
+          <h1>Terms of Use</h1>
+          <p class="brand-subtitle">
+            The rules that govern access, purchases, and acceptable use across AiratTop services.
+          </p>
+        </div>
+        <div class="brand-actions">
+          <a class="repo-link" href="https://airat.top" target="_blank" rel="noreferrer">airat.top</a>
+          <a class="repo-link" href="https://privacy.airat.top" target="_blank" rel="noreferrer privacy-policy">Privacy</a>
+          <a class="repo-link" href="https://donate.airat.top" target="_blank" rel="noreferrer">Donate</a>
+        </div>
+      </header>
+
+      <article class="content">
+        <p class="lead">
           These Terms of Use (“Terms”) govern access to and use of any website or service operated by AiratTop (“we”, “our”, “us”)
           any website or service under the <strong>airat.top</strong> domain, including but not limited to
           <code>about.airat.top</code>, <code>blog.airat.top</code>, <code>donate.airat.top</code>, <code>privacy.airat.top</code>, <code>terms.airat.top</code>, and other current or future subdomains (collectively, the “Services”).
@@ -133,110 +58,103 @@
         <p>
           By using the Services, purchasing digital products, or participating in communities we host (including future programs on platforms such as Skool), you agree to these Terms. If you do not agree, discontinue use immediately.
         </p>
-        <p>Last updated: <time datetime="2024-07-10">10 July 2024</time></p>
-      </header>
+        <p class="meta">Last updated: <time datetime="2024-07-10">10 July 2024</time></p>
 
-      <section>
-        <h2>1. Eligibility & General Conditions</h2>
-        <p>
-          The Services are intended for individuals and entities capable of entering into legally binding agreements. You must comply with all applicable laws, including export controls and intellectual property regulations, when accessing our content or purchasing our products. These Terms incorporate our <a href="https://privacy.airat.top" target="_blank" rel="privacy-policy">Privacy Policy</a>, which explains how we handle personal data.
-        </p>
-      </section>
+        <section>
+          <h2>1. Eligibility & General Conditions</h2>
+          <p>
+            The Services are intended for individuals and entities capable of entering into legally binding agreements. You must comply with all applicable laws, including export controls and intellectual property regulations, when accessing our content or purchasing our products. These Terms incorporate our <a href="https://privacy.airat.top" target="_blank" rel="noreferrer privacy-policy">Privacy Policy</a>, which explains how we handle personal data.
+          </p>
+        </section>
 
-      <section>
-        <h2>2. Accounts & Access</h2>
-        <p>
-          Some offerings (for example, online courses, private forums, or subscriptions) may require an account on third-party platforms such as Skool or other learning communities. You are responsible for safeguarding your login credentials and ensuring that account information remains accurate. We reserve the right to suspend or terminate access if you violate these Terms or abuse the Services.
-        </p>
-      </section>
+        <section>
+          <h2>2. Accounts & Access</h2>
+          <p>
+            Some offerings (for example, online courses, private forums, or subscriptions) may require an account on third-party platforms such as Skool or other learning communities. You are responsible for safeguarding your login credentials and ensuring that account information remains accurate. We reserve the right to suspend or terminate access if you violate these Terms or abuse the Services.
+          </p>
+        </section>
 
-      <section>
-        <h2>3. Digital Products & License</h2>
-        <p>
-          We offer digital products, including courses, templates, and subscription-based content (“Digital Products”). Upon purchase, you receive a personal, non-transferable, non-exclusive license to access the material for your own business or educational use. Redistribution, resale, public broadcasting, or making the content available to third parties (including “leaked” copies or torrent uploads) is strictly prohibited.
-        </p>
-      </section>
+        <section>
+          <h2>3. Digital Products & License</h2>
+          <p>
+            We offer digital products, including courses, templates, and subscription-based content (“Digital Products”). Upon purchase, you receive a personal, non-transferable, non-exclusive license to access the material for your own business or educational use. Redistribution, resale, public broadcasting, or making the content available to third parties (including “leaked” copies or torrent uploads) is strictly prohibited.
+          </p>
+        </section>
 
-      <section>
-        <h2>4. Payments & Billing</h2>
-        <p>
-          Payments may be processed through third-party providers such as YooKassa, RoboKassa, or other processors we announce from time to time. Prices are listed in the currency shown at checkout and include applicable taxes unless stated otherwise. By submitting payment details, you authorize the applicable processor to charge the amount shown.
-        </p>
-        <p>
-          If you choose a subscription, you agree to recurring charges until cancelled. You can manage cancellations by contacting the payment processor or emailing <a href="mailto:mail@airat.top">mail@airat.top</a>.
-        </p>
-      </section>
+        <section>
+          <h2>4. Payments & Billing</h2>
+          <p>
+            Payments may be processed through third-party providers such as YooKassa, RoboKassa, or other processors we announce from time to time. Prices are listed in the currency shown at checkout and include applicable taxes unless stated otherwise. By submitting payment details, you authorize the applicable processor to charge the amount shown.
+          </p>
+          <p>
+            If you choose a subscription, you agree to recurring charges until cancelled. You can manage cancellations by contacting the payment processor or emailing <a href="mailto:mail@airat.top">mail@airat.top</a>.
+          </p>
+        </section>
 
-      <section>
-        <h2>5. Refunds</h2>
-        <ul>
-          <li>Self-paced courses and digital downloads qualify for a 14-day refund window starting from the time of purchase.</li>
-          <li>To request a refund, email <a href="mailto:mail@airat.top">mail@airat.top</a> with proof of purchase and your reason. Refunds are not guaranteed if part of the product has already been consumed in full or shared publicly.</li>
-          <li>Live cohort programs, custom consulting, or one-of-a-kind deliverables may have separate refund policies communicated in the offer details.</li>
-        </ul>
-      </section>
+        <section>
+          <h2>5. Refunds</h2>
+          <ul>
+            <li>Self-paced courses and digital downloads qualify for a 14-day refund window starting from the time of purchase.</li>
+            <li>To request a refund, email <a href="mailto:mail@airat.top">mail@airat.top</a> with proof of purchase and your reason. Refunds are not guaranteed if part of the product has already been consumed in full or shared publicly.</li>
+            <li>Live cohort programs, custom consulting, or one-of-a-kind deliverables may have separate refund policies communicated in the offer details.</li>
+          </ul>
+        </section>
 
-      <section>
-        <h2>6. Intellectual Property</h2>
-        <p>
-          All content, branding, videos, code samples, and documentation remain the intellectual property of AiratTop or its licensors. You agree not to remove copyright notices, attempt to reverse engineer proprietary tools, or create derivative works that compete with our offerings.
-        </p>
-      </section>
+        <section>
+          <h2>6. Intellectual Property</h2>
+          <p>
+            All content, branding, videos, code samples, and documentation remain the intellectual property of AiratTop or its licensors. You agree not to remove copyright notices, attempt to reverse engineer proprietary tools, or create derivative works that compete with our offerings.
+          </p>
+        </section>
 
-      <section>
-        <h2>7. Acceptable Use</h2>
-        <p>
-          You may not use the Services to engage in unlawful activities, distribute malware, attempt unauthorized access, or harass others. We reserve the right to remove content or revoke access to protect the community and our infrastructure.
-        </p>
-      </section>
+        <section>
+          <h2>7. Acceptable Use</h2>
+          <p>
+            You may not use the Services to engage in unlawful activities, distribute malware, attempt unauthorized access, or harass others. We reserve the right to remove content or revoke access to protect the community and our infrastructure.
+          </p>
+        </section>
 
-      <section>
-        <h2>8. Third-Party Services</h2>
-        <p>
-          We may integrate with services operated by other companies (such as Skool for community features or payment processors for billing). Your use of those services is also governed by their respective terms and policies. We are not responsible for outages or breaches originating from third-party platforms, but we will communicate promptly if we become aware of any issues affecting your data or access.
-        </p>
-      </section>
+        <section>
+          <h2>8. Third-Party Services</h2>
+          <p>
+            We may integrate with services operated by other companies (such as Skool for community features or payment processors for billing). Your use of those services is also governed by their respective terms and policies. We are not responsible for outages or breaches originating from third-party platforms, but we will communicate promptly if we become aware of any issues affecting your data or access.
+          </p>
+        </section>
 
-      <section>
-        <h2>9. Disclaimers</h2>
-        <p>
-          The Services, including all Digital Products, are provided “as is” and “as available” without warranties of any kind. We do not guarantee specific business outcomes or results. You use the material at your own risk and are responsible for ensuring the solutions are appropriate for your environment.
-        </p>
-      </section>
+        <section>
+          <h2>9. Disclaimer of Warranties</h2>
+          <p>
+            The Services and Digital Products are provided “as is” without warranties of any kind. We make no guarantees about availability, accuracy, or fitness for a particular purpose. Your use of the Services is at your own risk.
+          </p>
+        </section>
 
-      <section>
-        <h2>10. Limitation of Liability</h2>
-        <p>
-          To the fullest extent permitted by law, AiratTop and its affiliates are not liable for indirect, incidental, special, consequential, or punitive damages, nor for lost profits or revenues, even if foreseeable. Our total liability for any claim is limited to the amount you paid for the product or service giving rise to the claim.
-        </p>
-      </section>
+        <section>
+          <h2>10. Limitation of Liability</h2>
+          <p>
+            To the maximum extent permitted by law, AiratTop is not liable for any indirect, incidental, or consequential damages, including lost profits, data loss, or business interruption, arising from your use of the Services or Digital Products.
+          </p>
+        </section>
 
-      <section>
-        <h2>11. Modifications to the Services</h2>
-        <p>
-          We may update, discontinue, or change features, pricing, or availability of any Service at our discretion. We will provide notice of material changes via the website, email, or within the relevant platform.
-        </p>
-      </section>
+        <section>
+          <h2>11. Changes to the Terms</h2>
+          <p>
+            We may update these Terms from time to time. Material changes will be posted on this page with a revised “Last updated” date. Continued use of the Services after changes become effective constitutes acceptance of the updated Terms.
+          </p>
+        </section>
 
-      <section>
-        <h2>12. Changes to These Terms</h2>
-        <p>
-          We may revise these Terms from time to time. The “Last updated” date indicates when changes took effect. Continued use after changes become effective constitutes acceptance of the revised Terms.
-        </p>
-      </section>
+        <section>
+          <h2>12. Contact</h2>
+          <p>
+            For questions about these Terms, please contact <a href="mailto:mail@airat.top">mail@airat.top</a>.
+          </p>
+        </section>
+      </article>
 
-      <section>
-        <h2>13. Contact</h2>
-        <p>
-          For questions about these Terms or our offerings, please email
-          <a href="mailto:mail@airat.top">mail@airat.top</a>.
-        </p>
-      </section>
-
-      <footer>
+      <footer class="doc-footer">
         <p>AiratTop · airat.top</p>
       </footer>
     </main>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CVEGGNPJXK"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
