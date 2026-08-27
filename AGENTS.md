@@ -15,7 +15,7 @@ Public Terms of Use page for AiratTop services (`terms.airat.top`).
 ## Site Conventions
 - Keep legal language consistent with Privacy and other policy pages.
 - Keep SEO metadata: `title`, `description`, canonical, Open Graph, Twitter tags.
-- Keep the Google Analytics counter and required site-verification meta tags. Verification tags only prove domain ownership; they are not analytics counters and do not track visitors. Yandex verification is intentionally not used.
+- Keep the Google Analytics counter and required site-verification meta tags. Verification tags only prove domain ownership; they are not analytics counters and do not track visitors.
 - Publish static assets from `public_html`.
 
 ## AI Working Notes
