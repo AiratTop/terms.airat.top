@@ -21,16 +21,19 @@ npx wrangler deploy
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The original source code, configuration, and technical documentation in this repository are
+licensed under the [Apache License 2.0](LICENSE), with copyright details in [NOTICE](NOTICE).
+
+Website copy, legal policy text, photographs, logos, and other media assets are not licensed under
+Apache-2.0. They remain subject to their respective rights and licenses.
 
 ---
 
 ## Author
 
-**AiratTop**
+**AiratTop (Airat Halitov)**
 
 - Website: [airat.top](https://airat.top)
 - GitHub: [@AiratTop](https://github.com/AiratTop)
 - Email: [mail@airat.top](mailto:mail@airat.top)
 - Repository: [terms.airat.top](https://github.com/AiratTop/terms.airat.top)
-
