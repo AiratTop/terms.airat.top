@@ -4,6 +4,7 @@ Public Terms of Use for AiratTop websites and services.
 
 - Live site: https://terms.airat.top
 - Privacy Policy: https://privacy.airat.top
+- Status page: https://status.airat.top
 
 ## Structure
 
